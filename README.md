@@ -1,2 +1,2 @@
 # gifextractor
-This python script takes a gif and writes Arduino code that can display a gif on an individually addressable LED matrix that can use the FASTLED libray.
+Takes gifs and extracts the individual pixel values then writes Arduino code to display the gif on a custom Neopixel matrix I created. 
