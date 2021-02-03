@@ -4,7 +4,7 @@ from statistics import mode
 import webbrowser
 
 path = 'wavy'
-os.chdir(r"C:\Users\Jacob\Desktop\Projects\Gifmaker")
+os.chdir(r"C:\Folder\where\Gif\is\located")
 
 num_key_frames = 60
 
