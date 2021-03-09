@@ -3,12 +3,12 @@ import os
 from statistics import mode
 import webbrowser
 
-path = 'wavy'
+file = 'wavy'
 os.chdir(r"C:\Folder\where\Gif\is\located")
 
 num_key_frames = 60
 
-with Image.open(path+'.gif') as im:
+with Image.open(file+'.gif') as im:
     if im.n_frames < num_key_frames:
         num_key_frames = im.n_frames
     for i in range(num_key_frames):
