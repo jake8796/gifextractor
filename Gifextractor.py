@@ -34,8 +34,6 @@ print("Format:", im.format, "\nWidth:", im.width, "\nHeight:", im.height, "\nMod
 
 print("Number of frames: " + str(im.n_frames))
 
-# Iterate through frames and pixels, top row first
-
 listA = []
 #Finds the pixel color that could be background of a gif and remove it
 with Image.open('0.png') as img:
